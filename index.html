@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="./css/main.css" type="text/css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<title>css3照片墙</title>
+		<style>
+			canvas {
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: #111;
+				overflow:scroll;
+			}
+			#photo{
+				color: white;
+				z-index: 10000000000000;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				overflow:scroll;
+			}
+		</style>
+	</head>
+
+	<body>
+		<canvas id=c></canvas>
+		<div id='photo'>
+			<h1>老婆</h1>
+			<div class="container">
+				<img class="pic pic1" src="images/lp1.jpg">
+				<img class="pic pic2" src="images/lp2.jpg">
+				<img class="pic pic3" src="images/lp3.jpg">
+				<img class="pic pic4" src="images/lp4.jpg">
+				<img class="pic pic5" src="images/lp5.jpg">
+				<img class="pic pic6" src="images/lp6.jpg">
+				<img class="pic pic7" src="images/lp7.jpg">
+				<img class="pic pic8" src="images/lp8.jpg">
+				<img class="pic pic9" src="images/lp9.jpg">
+				<img class="pic pic10" src="images/lp10.jpg">
+				<img class="pic pic11" src="images/lp11.jpg">
+				<img class="pic pic12" src="images/lp12.jpg">
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/index.js" ></script>
+</html>
